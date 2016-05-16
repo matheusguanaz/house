@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <math.h>
+
+int main (void){
+	double b, c, d, e;
+	char a;
+
+	while(1){
+	scanf("%s" "%lf", &a, &b);
+
+		if(a=='E'){
+			break;
+		}
+
+		if (a=='O'){
+			printf("1\n");
+		}
+		if(a=='C'){
+			printf("2\n");
+		}
+		if(a=='p'){
+			printf("3\n");
+		}
+		if(a=='D'){
+			printf("4\n");
+		}	
+		if(a=='F'){
+			printf("5\n");
+		}
+		if(a=='N'){
+			printf("6\n");
+		}
+		if (a=='T'){
+			printf("7\n");
+		}
+		if(a=='A'){
+			printf("8\n");
+		}
+		if(a=='S'){
+			printf("9\n");
+		}
+		else continue;
+	}
+		
+return 0;
+}
